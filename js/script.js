@@ -81,6 +81,7 @@ const game = (() => {
                 if(board.getBoardArray().indexOf(undefined) == -1) {
                     alert("Its a draw")
                     board.load()
+                    activePlayer = player1
                 }
             }
             changePlayer()
